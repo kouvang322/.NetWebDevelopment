@@ -6,7 +6,9 @@
         @foreach (Customer customer in Model)
         {
             <li class="list-group-item">
-                Customer: <strong> @customer.CompanyName</strong> | Location: @customer.City - @customer.Country
+                <h3><strong> @customer.CompanyName</strong></h3>
+                <strong>City:</strong> @customer.City 
+                <br><strong>Country:</strong> @customer.Country
             </li>
         }
     </ul>

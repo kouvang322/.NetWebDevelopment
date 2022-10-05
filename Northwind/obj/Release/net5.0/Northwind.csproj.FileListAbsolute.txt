@@ -69,3 +69,5 @@ C:\Users\Kouva\Repo\WCTC\.NetWebDevelopment\Northwind\obj\Release\net5.0\ref\Nor
 C:\Users\Kouva\Repo\WCTC\.NetWebDevelopment\Northwind\obj\Release\net5.0\Northwind.pdb
 C:\Users\Kouva\Repo\WCTC\.NetWebDevelopment\Northwind\obj\Release\net5.0\Northwind.genruntimeconfig.cache
 C:\Users\Kouva\Repo\WCTC\.NetWebDevelopment\Northwind\obj\Release\net5.0\Razor\Views\Product\Discount.cshtml.g.cs
+C:\Users\Kouva\Repo\WCTC\.NetWebDevelopment\Northwind\obj\Release\net5.0\Razor\Views\Customer\Index.cshtml.g.cs
+C:\Users\Kouva\Repo\WCTC\.NetWebDevelopment\Northwind\obj\Release\net5.0\Razor\Views\Customer\Register.cshtml.g.cs
