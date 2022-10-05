@@ -1,0 +1,12 @@
+@using Northwind.Models
+@model IEnumerable<Discount>
+
+    <h3>Current Discounts</h3>
+    <ul class="list-group">
+        @foreach (Discount discount in Model)
+        {
+            <li class="list-group-item">
+                <strong>@discount.Title</strong> - @discount.Description | <strong>Expires: @discount.EndTime.ToString("MM/dd/yyyy") - Code: @discount.Code </strong>
+            </li>
+        }
+    </ul>

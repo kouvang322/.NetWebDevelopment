@@ -1,0 +1,15 @@
+@using Northwind.Models
+@model IEnumerable<Customer>
+
+    <h3>Current Customers</h3>
+    <ul class="list-group">
+        @foreach (Customer customer in Model)
+        {
+            <li class="list-group-item">
+                Customer: <strong> @customer.CompanyName</strong> | Location: @customer.City - @customer.Country
+            </li>
+        }
+    </ul>
+
+    <hr />
+<a asp-action="Register" class="btn btn-primary">Register</a>

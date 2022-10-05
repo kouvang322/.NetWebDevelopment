@@ -1,9 +1,11 @@
 @using Northwind.Models
 @model IEnumerable<Category>
 
-<ul>
-    @foreach (Category c in Model)
+<ul class="list-group">
+    @foreach (Category category in Model)
     {
-        <li>@c.CategoryName - @c.Description</li>
+        <li class="list-group-item">
+            <a asp-action="Index" asp-route-id="@category.CategoryId">@category.CategoryName - @category.Description</a>
+        </li>
     }
 </ul>

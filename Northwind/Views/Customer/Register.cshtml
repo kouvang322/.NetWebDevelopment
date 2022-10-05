@@ -1,0 +1,42 @@
+@model Northwind.Models.Customer
+
+<div class="bg-primary m-1 p-1 text-white"><h4>Customer Registration</h4></div>
+<form method="post">
+    <div class="form-group">
+        <div asp-validation-summary="All"></div>
+        <label asp-for="@Model.CompanyName" class="col-form-label">Company Name</label>
+        <input asp-for="@Model.CompanyName" class="form-control" placeholder="Company Name" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Address" class="col-form-label" >Address</label>
+        <input asp-for="@Model.Address" class="form-control" placeholder="Address" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.City" class="col-form-label">City</label>
+        <input asp-for="@Model.City" class="form-control" placeholder="City" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Region" class="col-form-label">Region</label>
+        <input asp-for="@Model.Region" class="form-control" class="form-control" placeholder="Region" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.PostalCode" class="col-form-label">PostalCode</label>
+        <input asp-for="@Model.PostalCode" class="form-control" placeholder="PostalCode" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Country" class="col-form-label">Country</label>
+        <input asp-for="@Model.Country" class="form-control" placeholder="Country" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Phone" class="col-form-label">Phone</label>
+        <input asp-for="@Model.Phone" class="form-control" placeholder="Phone" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Fax" class="col-form-label">Fax</label>
+        <input asp-for="@Model.Fax" class="form-control" placeholder="Fax" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<hr />
+<a asp-action="Index">Home</a>
